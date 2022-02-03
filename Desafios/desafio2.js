@@ -20,5 +20,8 @@ Senão, a variável odd recebe o valor isolado.*/
 let vetor = ["a", "b", "a", "a", "c", "b"].sort(); // => ordenado de forma crescente
 let odd = [];
 
-odd.push(vetor);
-vetor.forEach((element) => console.log(element));
+let elementos = vetor.filter(function (elemento) {
+  return elemento;
+});
+odd.push(elementos[5]);
+console.log(odd);

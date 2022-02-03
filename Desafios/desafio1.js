@@ -20,5 +20,10 @@ Dois passos: 5 + 1 + 1.
 
 E assim, sucessivamente, até chegar ou passar a distância final de 40.*/
 
-function atravessarRua(pontoInicial, pontoFinal, tamanhoPasso) {}
-console.log(atravessarRua(5, 50, 2));
+function atravessarRua(distanciaInicial, distanciapontoFinal, tamanhoPasso) {
+  const diferencaEntreDistancias = distanciapontoFinal - distanciaInicial;
+  const quantidadeMinimaDePassos = diferencaEntreDistancias / tamanhoPasso;
+
+  console.log(`Quantidade mínima de passos: ${quantidadeMinimaDePassos}`);
+}
+atravessarRua(5, 50, 2);

@@ -16,3 +16,9 @@ Percorreremos o vetor ordenado;
 Armazenaremos em variáveis o elemento atual e o próximo elemento;
 Se o elemento atual for igual ao próximo, seguimos a iteração;
 Senão, a variável odd recebe o valor isolado.*/
+
+let vetor = ["a", "b", "a", "a", "c", "b"].sort(); // => ordenado de forma crescente
+let odd = [];
+
+odd.push(vetor);
+vetor.forEach((element) => console.log(element));

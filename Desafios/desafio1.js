@@ -20,11 +20,5 @@ Dois passos: 5 + 1 + 1.
 
 E assim, sucessivamente, até chegar ou passar a distância final de 40.*/
 
-function atravessarRua(inicial, final) {
-  for (let passos = inicial; passos <= final; passos++) {
-    console.log(passos);
-    let soma = passos + passos;
-    console.log(soma);
-  }
-}
-atravessarRua(5, 40);
+function atravessarRua(pontoInicial, pontoFinal, tamanhoPasso) {}
+console.log(atravessarRua(5, 50, 2));
